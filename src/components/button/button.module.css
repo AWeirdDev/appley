@@ -34,7 +34,7 @@
 }
 
 .bezeled-gray {
-    background-color: var(--fill-tertiary-light);
+    background-color: var(--labels-quaternary-light);
     color: var(--bg);
 }
 
