@@ -7,7 +7,7 @@ import cn from "classnames";
 export interface ButtonProps {
     children: ReactNode,
     size?: "sm" | "md" | "lg",
-    style?: "filled" | "bezeled" | "bezeled-gray" | "borderless",
+    buttonStyle?: "filled" | "bezeled" | "bezeled-gray" | "borderless",
     disabled?: boolean,
     icon?: ReactNode,
     dark?: boolean,
@@ -17,7 +17,7 @@ export interface ButtonProps {
 export function Button({
     children,
     size,
-    style,
+    buttonStyle,
     disabled,
     icon,
     dark,
@@ -31,7 +31,7 @@ export function Button({
                     cx.button,
                     cx[size ?? "sm"],
                     dark && cx.dark,
-                    cx[style ?? "filled"],
+                    cx[buttonStyle ?? "filled"],
                     disabled && cx.disabled
                 )}
             role="button"
