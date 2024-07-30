@@ -9,8 +9,8 @@ Alright, enough talk, let's dive in!
 ### Button
 ```jsx
 <>
-    <Button size="sm">$69.99</Button>
-    <Button size="md">Start</Button>
-    <Button size="lg">Run</Button>
+    <Button size="sm" color="blue">$69.99</Button>
+    <Button size="md" color="red">Dangerous</Button>
+    <Button size="lg" color="green" buttonStyle="bezeled">Plant</Button>
 </>
 ```
