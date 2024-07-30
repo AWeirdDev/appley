@@ -7,6 +7,8 @@ We got some components packed up for you! Yes, it took some time copying & pasti
 Alright, enough talk, let's dive in!
 
 ### Button
+![buttons](https://github.com/user-attachments/assets/9094c173-5b3d-4002-98e3-91b2371ae2c6)
+
 ```jsx
 <>
     <Button size="sm" color="blue">$69.99</Button>
