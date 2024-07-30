@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --system-red-light: #FF3B30;
+    --system-red-dark: #FF453A;
+    --system-orange-light: #FF9500;
+    --system-orange-dark: #FF9F0A;
+    --system-yellow-light: #FFCC00;
+    --system-yellow-dark: #FFD60A;
+    --system-green-light: #30D158;
+    --system-green-dark: #34C759;
+    --system-mint-light: #00C7BE;
+    --system-mint-dark: #63E6E2;
+    --system-teal-light: #30B0C7;
+    --system-teal-dark: #40CBE0;
+    --system-cyan-light: #32ADE6;
+    --system-cyan-dark: #64D2FF;
+    --system-blue-light: #007AFF;
+    --system-blue-dark: #0A84FF;
+    --system-indigo-light: #5856D6;
+    --system-indigo-dark: #5E5CE6;
+    --system-purple-light: #AF52DE;
+    --system-purple-dark: #BF5AF2;
+    --system-pink-light: #FF2D55;
+    --system-pink-dark: #FF375F;
+    --system-brown-light: #A2845E;
+    --system-brown-dark: #AC8E68;
+    --system-black: #000000;
+    --system-gray: #8E8E93;
+    --system-gray2-light: #AEAEB2;
+    --system-gray2-dark: #636366;
+    --system-gray3-light: #C7C7CC;
+    --system-gray3-dark: #48484A;
+    --system-gray4-light: #C7C7CC;
+    --system-gray4-dark: #3A3A3C;
+    --system-gray5-light: #E5E5EA;
+    --system-gray5-dark: #2C2C2E;
+    --system-gray6-light: #F2F2F7;
+    --system-gray6-dark: #1C1C1E;
+    --system-white-light: #F2F2F7;
+    --system-white-dark: #FFFFFF;
+    --labels-primary-light: #000000;
+    --labels-secondary-light: rgb(from #3C3C43 r g b / 60%);
+    --labels-tertiary-light: rgb(from #3C3C43 r g b / 30%);
+    --labels-quaternary-light: rgb(from #3C3C43 r g b / 18%);
+    --labels-primary-dark: #FFFFFF;
+    --labels-secondary-dark: rgb(from #EBEBF5 r g b / 60%);
+    --labels-tertiary-dark: rgb(from #EBEBF5 r g b / 30%);
+    --labels-quaternary-dark: rgb(from #EBEBF5 r g b / 16%);
+}
